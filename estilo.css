@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Limelight-Regular";
+    src: url("Limelight-Regular.ttf") format("truetype");
+  }
+body{
+    background-image: url(maoCofrinho.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: block;
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 52%;
+    margin-top: 5%;
+    font-family: Limelight-Regular;
+}
+#wrap{
+    background: #f8f7d1;
+}
+.moeda{
+    text-align: right;
+    margin-right: 19%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.texto{
+    color:  #3D5B59;
+    font-size: x-large;
+}
+header{
+    font-size: 60px;
+    text-align: center;
+    font-weight: bolder;
+    color:  #FFC2C7;
+}
+.caixa{
+    width: 100px;
+    text-align: center;
+}#depositar{
+    border-radius: 20px;
+    font-weight: bolder;
+    color: black;
+    background-color: #B4F8C8;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    font-family: Limelight-Regular;
+}
+#botao{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#depositar:hover{
+    background-color: #FEE7E6;
+    cursor: pointer;
+}
+#resultado{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color:  #3D5B59;
+    font-size: xx-large;
+}
