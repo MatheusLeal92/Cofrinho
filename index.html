@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script type="text/javascript" src="javascript.js"></script>
+    <title>Cofrinho</title>
+</head>
+
+<body>
+    <div class="wrap">
+        <header>
+            Cofrinho
+        </header>
+        <div>
+            <div class="moeda">
+                <label class="texto">1 real:</label>
+                <input id="1real" type="number" class="caixa" />
+            </div>
+            <div class="moeda">
+                <label class="texto">50 centavos:</label>
+                <input id="50cents" type="number" class="caixa" />
+            </div>
+            <div class="moeda">
+                <label class="texto">25 centavos:</label>
+                <input id="25cents" type="number" class="caixa" />
+            </div>
+            <div class="moeda">
+                <label class="texto">10 centavos:</label>
+                <input id="10cents" type="number" class="caixa" />
+            </div>
+            <div class="moeda">
+                <label class="texto">5 centavos:</label>
+                <input id="5cents" type="number" class="caixa" />
+            </div>
+            <div class="moeda">
+                <label class="texto">1 centavo:</label>
+                <input id="1cents" type="number" class="caixa" />
+            </div>
+        </div>
+        <div id="botao">
+            <button id="depositar" onclick="depositar()">Contar</button>
+        </div>
+        <div id="resultado">
+            <label class="letra">Total:</label>
+            <span id="total"></span>
+        </div>
+    </div>    
+</body>
+</html>
+
