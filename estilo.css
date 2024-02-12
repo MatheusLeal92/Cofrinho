@@ -3,22 +3,30 @@
     src: url("Limelight-Regular.ttf") format("truetype");
   }
 body{
+    margin: 0;
     background-image: url(maoCofrinho.png);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     display: block;
     text-align: left;
-    margin-left: 15%;
-    margin-right: 52%;
     margin-top: 5%;
     font-family: Limelight-Regular;
 }
-#wrap{
+.wrap{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    align-items: center;
     background: #f8f7d1;
+    width: min-content;
+    min-width: 30vw;
+    margin-left: 10vw;
 }
 .moeda{
-    text-align: right;
-    margin-right: 19%;
+
+    display: flex;
+    justify-content: right;
+
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bold;
@@ -28,7 +36,7 @@ body{
     font-size: x-large;
 }
 header{
-    font-size: 60px;
+    font-size: calc(20px + 5vh);
     text-align: center;
     font-weight: bolder;
     color:  #FFC2C7;
@@ -36,7 +44,8 @@ header{
 .caixa{
     width: 100px;
     text-align: center;
-}#depositar{
+}
+#depositar{
     border-radius: 20px;
     font-weight: bolder;
     color: black;
@@ -62,4 +71,23 @@ header{
     font-weight: bolder;
     color:  #3D5B59;
     font-size: xx-large;
+}
+
+@media only screen and (max-width: 787px) {
+    body{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        align-items: center;
+    }
+
+    header{
+        margin-top: 20px;
+    }
+    
+    .wrap{
+        margin-left: 0;
+        width: 90vw;
+    }
+
 }
